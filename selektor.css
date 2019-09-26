@@ -1,0 +1,26 @@
+h2 {
+    color: blue;
+    }
+    h2 {
+        color: blue;
+        }
+       h3 {
+        color: blue;
+        }
+        h1 , h2, h3 , h4, h5 , h6{
+            color: blue;
+            }
+            p strong {
+                color:red;
+                }
+                h2 span i {
+                    color:red;
+                    }
+                    h2.judul , .paragraf {
+                        font-style: italic;
+                        }
+                        #belajar_html, p#belajar_css, h3.subheader {
+                            font-size:14pt;
+                            }
+                                              
+                     

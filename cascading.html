@@ -1,0 +1,29 @@
+<!-- Berikut adalah kodingan untuk melakukan cascading. Cascading merupakan urutan prioritas pada CSS-->
+<!--Struktur dasar HTML-->
+<!DOCTYPE html>
+<!--Tag HTML merupakan tag pembuka dari keseluruhan halaman web-->
+<html>
+<!--Tag head berisi berbagai definisi halaman-->
+<head>
+ <!--Tittle berfungsi untuk menamai sebuah judul dari website yang akan dibuat-->
+ <title>Contoh Kasus Cascading CSS</title>
+ <!--Pada metode cascading kali ini, kita menggunakan atribut href pada tag <link>, yang akan berisi alamat dari halaman CSS-->
+ <link rel="stylesheet" type="text/css" href="prioritas.css">
+ <style type="text/css">
+ h2 {
+ color:red;
+ }
+ </style>
+ </head>
+ <!--Tag Body berisi semua elemen yang akan tampil dalam halaman web-->
+ <body>
+<!--Perintah h digunakan untuk menentukan bahwa kalimat tersebut menjadi sebuah header-->
+  <h2>
+  Akan berwarna apa saya?..1
+  </h2>
+  <h2 style="color:green">
+  Akan berwarna apa saya?..2
+  </h2>
+ </body>
+ </html>
+ 

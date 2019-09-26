@@ -1,0 +1,39 @@
+<!--Struktur dasar HTML-->
+<!DOCTYPE html>
+<!--Tag HTML merupakan tag pembuka dari keseluruhan halaman web-->
+<html>
+<!--Tag head berisi berbagai definisi halaman-->
+<head>
+<!--Tittle berfungsi untuk menamai sebuah judul dari website yang akan dibuat-->
+<!--Selector p, hanya terdiri dari 1 tag selector, maka nilainya: 0,0,0,1
+        Selector div p, terdiri dari 2 tag selector, maka nilainya: 0,0,0,2
+        Selector #aaa, terdiri dari 1 ID selector, maka nilainya: 0,1,0,0
+        Selector body div p, terdiri dari 3 tag selector, maka nilainya: 0,0,0,3
+        Selector div p.kalimat, terdiri dari 1 class selector dan 2 tag selector, maka nilainya: 0,0,1,2 -->
+ <title>Contoh Kasus Spesifik CSS</title>
+ <style type="text/css">
+ p {
+ color:red;
+ }
+ div p {
+ color:green;
+ }
+ #aaa{
+ color:orange;
+ }
+ body div p {
+ color:yellow;
+ }
+ div p.kalimat {
+ color:silver;
+ }
+ </style>
+</head>
+<body>
+ <div>
+        <p id="aaa">
+                Sedang Belajar CSS...
+                </p>
+                </div>
+               </body>
+               </html>

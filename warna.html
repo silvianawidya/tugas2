@@ -1,0 +1,52 @@
+<!--Struktur dasar HTML-->
+<!DOCTYPE html>
+<!--Tag HTML merupakan tag pembuka dari keseluruhan halaman web-->
+<html>
+<!--Tag head berisi berbagai definisi halaman-->
+<head>
+    <link rel="stylesheet" type="text/ss" href="modelwarna.css"
+ <title>Contoh Penulisan Kode Warna CSS</title>
+ <!--sebuah tag akan ‘melewatkan’ warna dari tag dibelakangnya, sesuai dengan nilai transparan-->
+ <style type="text/css">
+ p.satu {
+ color:#0000FF;
+ }
+ p.dua {
+ color:#F00;
+ }
+ p.tiga {
+ color:rgb(10, 255, 10);
+ }
+ p.empat {
+ color:orange;
+ }
+ p.lima{
+ color:transparent;
+ }
+ </style>
+</head>
+<!--Perintah body berfungsi untuk mengisi website-->
+<body>
+    <!--perintah p digunakan untuk menentukan bahwa kalimat tersebut berada dalam kesatuan paragraf-->
+ <p class="satu">
+ Kalimat ini akan berwarna biru
+ </p>
+ <!--Perintah br digunakan untuk pindah ke baris selanjutnya-->
+ <br />
+ <p class="dua">
+ Kalimat ini akan berwarna merah
+ </p>
+ <br />
+ <p class="tiga">
+ Kalimat ini akan berwarna hijau
+ </p>
+ <br />
+ <p class="empat">
+ Kalimat ini akan berwarna orange
+ </p>
+ <br />
+ <p class="lima">
+ Kalimat ini sepertinya tidak akan terlihat
+ </p>
+</body>
+</html>

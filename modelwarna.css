@@ -1,0 +1,8 @@
+/*body di CSS ada karena di HTML juga ada body dan akan dipanggil di HTML tersebut*/
+body{
+    font-feature-settings: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',sans-serif;
+    /*text-align digunakan untuk mengatur rata tulisan*/
+    text-align: right;
+    /*warna background dibawah ini pakai warna blancehedalmood*/
+    background-color: blanchedalmond
+}

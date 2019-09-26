@@ -1,0 +1,62 @@
+<!--Struktur dasar HTML-->
+<!DOCTYPE html> 
+<!--Tag HTML merupakan tag pembuka dari keseluruhan halaman web-->
+<html> 
+    <!--Tag head berisi berbagai definisi halaman-->
+    <head>    
+        <!--Tittle berfungsi untuk menamai sebuah judul dari website yang akan dibuat-->
+        <title>Belajar Membuat Form </title> 
+    </head> 
+    <!--Tag Body berisi semua elemen yang akan tampil dalam halaman web-->
+    <body> 
+        <!--Method get ini biasanya digunakan untuk query pencarian-->
+        <form action=" formulir.html" method="get"> 
+        <!--<input type=”text” /> adalah textbox inputan biasa yang menerima input berupa text-->
+        Nama: <input type="text" name="nama" value="Nama Kamu" /> 
+        <!-- Perintah br itu untuk ganti barisan-->
+        <br /> 
+        <!--<input type=”password” /> dalam tampilannya sama dengan type text, namun teks yang diinput tidak akan terlihat,-->
+        Password: <input type="password" name="password" />
+         <!-- Perintah br itu untuk ganti barisan--> 
+        <br /> 
+        <!--input type=”radio” /> mirip dengan checkbox, namun user hanya bisa memilih satu diantara pilihan contohnya pemilihan jenis kelamin di bawah ini-->
+        Jenis Kelamin :  
+        <input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+        Laki - Laki 
+        <input type="radio" name="jenis_kelamin" value="perempuan" />  
+        Perempuan 
+         <!-- Perintah br itu untuk ganti barisan--> 
+        <br /> 
+        <!--input type=”checkbox” /> adalah inputan berupa checkbox yang dapat diceklist atau di centang oleh user-->
+        Hobi: <input type="checkbox" name="hobi_baca" /> Membaca Buku
+                <input type="checkbox" name="hobi_nulis" checked /> 
+        Menulis
+                <input type="checkbox" name="hobi_mancing" /> Memancing
+         <!-- Perintah br itu untuk ganti barisan-->      
+        <br />
+        Asal Kota:
+        <!--Tag select digunakan untuk inputan yang telah tersedia nilainya, dan user
+        hanya dapat memilih dari nilai yang ada-->
+        <select name="asal_kota" >
+            <option value="Kota Jakarta"> Jakarta</option>
+            <option>Bandung</option>
+            <option value="Kota Semarang" selected>Semarang</option>
+        </select>
+        <br />
+         <!-- Perintah br itu untuk ganti barisan-->
+        Komentar Anda:  
+        <!--Elemen yang berada diantara tag textarea akan ditampilkan sebagai text awal dari form-->
+        <textarea name="komentar" rows="5" cols="20">
+                Silahkan katakan isi hati anda
+                </textarea>
+                <br />
+        <input type="submit" value="Mulai Proses!" >
+    </form>
+    </body>
+    </html>
+
+
+
+
+
+         

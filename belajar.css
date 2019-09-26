@@ -1,0 +1,10 @@
+/*Kode CS dibawah bermaksud untuk membuat seluruh tag HTML berwarna putih, dan background berwarna hitam.*/
+body{
+    color: white;
+    background-color : black;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*aturan center untuk mengatur text supaya ada di tengah*/
+    text-align: center;
+}

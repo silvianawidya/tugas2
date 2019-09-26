@@ -1,0 +1,11 @@
+/*Vendor prefix adalah sebutan untuk penambahan beberapa karakter khusus di
+awal penulisan property, terutama untuk property CSS3 terbaru. Sebagai contoh,
+untuk property column-count, jika menggunakan vendor prefix ditulis menjadi: -
+webkit-column-count*/
+div {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -o-column-count: 3;
+    -ms-column-count: 3;
+    column-count: 3;
+   }

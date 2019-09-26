@@ -1,0 +1,38 @@
+<!--STruktur dasar HTML-->
+<!DOCTYPE html>
+<!--Untuk seluruh tag HTML, akan berada di dalam tag <html>-->
+<!--untuk seluruh tag yang tampil di web browser akan berada di dalam tag <body>-->
+<html>
+<head>
+ <title>Contoh Inheritance dalam CSS</title>
+<!-- Tag <em> yang berada di dalam tag <p> merupakan anak (child) dari tag <p> dan grandchild dari tag <div>-->
+ <style type="text/css">
+ div.satu {
+ border: 1px solid black;
+ color: blue;
+ }
+ div.dua {
+ border: 1px solid black;
+ }
+ p.dua {
+ border: inherit;
+ }
+ </style>
+</head>
+ <!--Tag Body berisi semua elemen yang akan tampil dalam halaman web-->
+<body>
+ <div class="satu">
+ <p class="satu">
+<!-- Tag <em> yang berada di dalam tag <p> merupakan anak (child) dari tag <p>-->
+ Kalimat ini tanpa <em class="satu">nilai property inherit</em> CSS
+ </p>
+ </div>
+ <br />
+ <div class="dua">
+ <p class="dua">
+<!-- Tag <em> yang berada di dalam tag <p> merupakan anak (child) dari tag <p>-->
+ Kalimat ini menggunakan <em class="dua">nilai property inherit</em> CSS
+ </p>
+ </div>
+</body>
+</html>
